@@ -1,0 +1,11 @@
+<odoo>
+    <!-- Menu chính -->
+    <menuitem id="menu_hr_management_root" name="Quản lý nhân sự"/>
+
+    <!-- Sub-menu -->
+    <menuitem id="menu_hr_management_employee" name="Nhân viên" parent="menu_hr_management_root" action="action_employee"/>
+    <menuitem id="menu_hr_management_department" name="Phòng ban" parent="menu_hr_management_root" action="action_department"/>
+    <menuitem id="menu_hr_management_contract" name="Hợp đồng" parent="menu_hr_management_root" action="action_contract"/>
+    <menuitem id="menu_hr_management_attendance" name="Chấm công" parent="menu_hr_management_root" action="action_attendance"/>
+    <menuitem id="menu_hr_management_payroll" name="Lương thưởng" parent="menu_hr_management_root" action="action_payroll"/>
+</odoo>
